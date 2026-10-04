@@ -1,0 +1,377 @@
+{
+  "Website language": {
+    "et": "Veebilehe keel",
+    "ru": "Язык сайта",
+    "fi": "Sivuston kieli",
+    "pt": "Idioma do site",
+    "fr": "Langue du site"
+  },
+  "Chargement...": {
+    "en": "Loading…",
+    "et": "Laadimine…",
+    "ru": "Загрузка…",
+    "fi": "Ladataan…"
+  },
+  "Création d'un lac et d'un escalier avec chemin": {
+    "en": "Creation of a pond, steps and a path",
+    "et": "Tiigi, trepi ja raja rajamine",
+    "ru": "Создание пруда, лестницы и дорожки",
+    "fi": "Lammen, portaiden ja polun rakentaminen"
+  },
+  "Création des palissades avec des panneaux Boston PREMIUM Light Grey et décor HERA horizontal.": {
+    "en": "Fencing with Boston PREMIUM Light Grey panels and horizontal HERA decoration.",
+    "et": "Boston PREMIUM Light Grey paneelide ja horisontaalse HERA dekoratsiooniga piire.",
+    "ru": "Ограда из панелей Boston PREMIUM Light Grey с горизонтальным декором HERA.",
+    "fi": "Aita Boston PREMIUM Light Grey -paneeleilla ja vaakasuuntaisella HERA-koristeella."
+  },
+  "Rénovation et agrandissement de terrasse avec une forme de pose choisi par les clients.": {
+    "en": "Terrace renovation and extension with a layout chosen by the clients.",
+    "et": "Terrassi renoveerimine ja laiendamine klientide valitud paigutusega.",
+    "ru": "Ремонт и расширение террасы с выбранной клиентами схемой укладки.",
+    "fi": "Terassin uudistus ja laajennus asiakkaiden valitsemalla ladonnalla."
+  },
+  "Création d'une terrasse en pavés nuancés.": {
+    "en": "Creation of a terrace with varied paving tones.",
+    "et": "Varjunditega sillutatud terrassi rajamine.",
+    "ru": "Создание террасы с разнотонной брусчаткой.",
+    "fi": "Terassi eri sävyisillä pihakivillä."
+  },
+  "Installation de gazon synthétique.": {
+    "en": "Installation of artificial grass.",
+    "et": "Kunstmuru paigaldamine.",
+    "ru": "Установка искусственного газона.",
+    "fi": "Tekonurmen asennus."
+  },
+  "Pose d'une pallissade Boston PREMIUM Drak Grey": {
+    "en": "Installation of a Boston PREMIUM Dark Grey fence.",
+    "et": "Boston PREMIUM Dark Grey piirde paigaldamine.",
+    "ru": "Установка ограды Boston PREMIUM Dark Grey.",
+    "fi": "Boston PREMIUM Dark Grey -aidan asennus."
+  },
+  "Architecture paysagère": {
+    "en": "Landscape architecture",
+    "et": "Maastikuarhitektuur",
+    "ru": "Ландшафтная архитектура",
+    "fi": "Maisema-arkkitehtuuri"
+  },
+  "Nous transformons votre jardin de rêve en une merveilleuse réalité": {
+    "en": "Turning your dream garden into a beautiful reality.",
+    "et": "Muudame sinu unistuste aia kauniks tegelikkuseks.",
+    "ru": "Превращаем сад вашей мечты в прекрасную реальность.",
+    "fi": "Muutamme unelmiesi puutarhan kauniiksi todellisuudeksi."
+  },
+  "Construction": {
+    "en": "Construction",
+    "et": "Ehitus",
+    "ru": "Строительство",
+    "fi": "Rakentaminen"
+  },
+  "Vous rêvez, nous construisons.": {
+    "en": "You dream, we build.",
+    "et": "Sina unistad, meie ehitame.",
+    "ru": "Вы мечтаете, мы строим.",
+    "fi": "Sinä unelmoit, me rakennamme."
+  },
+  "Maintenance": {
+    "en": "Maintenance",
+    "et": "Hooldus",
+    "ru": "Уход",
+    "fi": "Ylläpito"
+  },
+  "La perfection ne se atteint pas qu'une seule fois, c'est un processus à maintenir tout au long de l'année.": {
+    "en": "Quality needs year-round care.",
+    "et": "Kvaliteet vajab aastaringset hoolt.",
+    "ru": "Качество требует заботы круглый год.",
+    "fi": "Laatu vaatii ympärivuotista huolenpitoa."
+  },
+  "Tous": {
+    "en": "All",
+    "et": "Kõik",
+    "ru": "Все",
+    "fi": "Kaikki"
+  },
+  "Terrasses": {
+    "en": "Terraces",
+    "et": "Terrassid",
+    "ru": "Террасы",
+    "fi": "Terassit"
+  },
+  "Clôtures": {
+    "en": "Fences",
+    "et": "Piirded",
+    "ru": "Ограды",
+    "fi": "Aidat"
+  },
+  "Jardins": {
+    "en": "Gardens",
+    "et": "Aiad",
+    "ru": "Сады",
+    "fi": "Puutarhat"
+  },
+  "CARDOSO SARL · CONCEPT INDÉPENDANT": {
+    "en": "CARDOSO SARL · INDEPENDENT CONCEPT",
+    "et": "CARDOSO SARL · SÕLTUMATU KONTSEPTSIOON",
+    "ru": "CARDOSO SARL · НЕЗАВИСИМАЯ КОНЦЕПЦИЯ",
+    "fi": "CARDOSO SARL · ITSENÄINEN KONSEPTI"
+  },
+  "Un extérieur.": {
+    "en": "One outdoor space.",
+    "et": "Üks õueruum.",
+    "ru": "Одно открытое пространство.",
+    "fi": "Yksi ulkotila."
+  },
+  "Mille possibilités.": {
+    "en": "A thousand possibilities.",
+    "et": "Tuhat võimalust.",
+    "ru": "Тысяча возможностей.",
+    "fi": "Tuhat mahdollisuutta."
+  },
+  "Des jardins aux terrasses, imaginez un espace qui vous ressemble.": {
+    "en": "From gardens to terraces, imagine a space that feels like you.",
+    "et": "Aedadest terrassideni — kujutle ruumi, mis on sinu nägu.",
+    "ru": "От садов до террас — представьте пространство с вашим характером.",
+    "fi": "Puutarhoista terasseihin: kuvittele itsesi näköinen tila."
+  },
+  "Découvrir les projets ↗": {
+    "en": "Explore the projects ↗",
+    "et": "Tutvu projektidega ↗",
+    "ru": "Посмотреть проекты ↗",
+    "fi": "Tutustu projekteihin ↗"
+  },
+  "Imaginer votre projet →": {
+    "en": "Imagine your project →",
+    "et": "Kujutle oma projekti →",
+    "ru": "Представьте свой проект →",
+    "fi": "Kuvittele projektisi →"
+  },
+  "Concept de site réalisé par TOIMU. Projet non commandé : cette démonstration ne reçoit aucune demande commerciale.": {
+    "en": "Website concept by TOIMU. Uncommissioned project: this demonstration does not receive business enquiries.",
+    "et": "TOIMU veebilehe kontseptsioon. Tellimata projekt: see demo ei võta äripäringuid vastu.",
+    "ru": "Концепция сайта от TOIMU. Инициативный проект: демонстрация не принимает коммерческие заявки.",
+    "fi": "TOIMUn sivustokonsepti. Oma-aloitteinen projekti: demo ei vastaanota kaupallisia kyselyitä."
+  },
+  "01 / NOS PRESTATIONS": {
+    "en": "01 / OUR SERVICES",
+    "et": "01 / MEIE TEENUSED",
+    "ru": "01 / НАШИ УСЛУГИ",
+    "fi": "01 / PALVELUMME"
+  },
+  "De l'idée au jardin.": {
+    "en": "From idea to garden.",
+    "et": "Ideest aiani.",
+    "ru": "От идеи до сада.",
+    "fi": "Ideasta puutarhaksi."
+  },
+  "Une présentation des solutions pour aménager, construire et entretenir les espaces extérieurs.": {
+    "en": "Solutions for shaping, building and maintaining outdoor spaces.",
+    "et": "Lahendused õueruumide kujundamiseks, ehitamiseks ja hooldamiseks.",
+    "ru": "Решения для оформления, строительства и ухода за открытыми пространствами.",
+    "fi": "Ratkaisut ulkotilojen suunnitteluun, rakentamiseen ja ylläpitoon."
+  },
+  "Entretien": {
+    "en": "Maintenance",
+    "et": "Hooldus",
+    "ru": "Уход",
+    "fi": "Ylläpito"
+  },
+  "Un extérieur soigné, au fil des saisons.": {
+    "et": "Hoolitsetud õueruum igal aastaajal.",
+    "ru": "Ухоженное пространство в любое время года.",
+    "fi": "Huoliteltu ulkotila kaikkina vuodenaikoina.",
+    "en": "A cared-for outdoor space, through the seasons."
+  },
+  "Parlons de votre projet →": {
+    "en": "Let’s discuss your project →",
+    "et": "Räägime sinu projektist →",
+    "ru": "Обсудим ваш проект →",
+    "fi": "Keskustellaan projektistasi →"
+  },
+  "02 / INSPIRATIONS": {
+    "en": "02 / INSPIRATION",
+    "et": "02 / INSPIRATSIOON",
+    "ru": "02 / ВДОХНОВЕНИЕ",
+    "fi": "02 / INSPIRAATIO"
+  },
+  "Des espaces à vivre.": {
+    "en": "Spaces to live in.",
+    "et": "Ruumid elamiseks.",
+    "ru": "Пространства для жизни.",
+    "fi": "Tiloja elämiseen."
+  },
+  "Filtrer les projets": {
+    "en": "Filter projects",
+    "et": "Filtreeri projekte",
+    "ru": "Фильтр проектов",
+    "fi": "Suodata projekteja"
+  },
+  "03 / VOTRE PROJET": {
+    "en": "03 / YOUR PROJECT",
+    "et": "03 / SINU PROJEKT",
+    "ru": "03 / ВАШ ПРОЕКТ",
+    "fi": "03 / PROJEKTISI"
+  },
+  "Et si tout commençait": {
+    "en": "What if it all started",
+    "et": "Mis siis, kui kõik algaks",
+    "ru": "А если всё начинается",
+    "fi": "Entä jos kaikki alkaisi"
+  },
+  "par une idée ?": {
+    "en": "with an idea?",
+    "et": "ühest ideest?",
+    "ru": "с идеи?",
+    "fi": "yhdestä ideasta?"
+  },
+  "Essayez le formulaire avec des données fictives. Aucun message n'est envoyé ni conservé après fermeture de la page.": {
+    "en": "Try the form with fictional details. No message is sent or retained after the page is closed.",
+    "et": "Proovi vormi väljamõeldud andmetega. Sõnumit ei saadeta ega säilitata pärast lehe sulgemist.",
+    "ru": "Попробуйте форму с вымышленными данными. Сообщение не отправляется и не сохраняется после закрытия страницы.",
+    "fi": "Kokeile lomaketta kuvitteellisilla tiedoilla. Viestiä ei lähetetä tai säilytetä sivun sulkemisen jälkeen."
+  },
+  "Votre nom": {
+    "en": "Your name",
+    "et": "Sinu nimi",
+    "ru": "Ваше имя",
+    "fi": "Nimesi"
+  },
+  "Votre email": {
+    "en": "Your email",
+    "et": "Sinu e-post",
+    "ru": "Ваш email",
+    "fi": "Sähköpostisi"
+  },
+  "Votre projet": {
+    "en": "Your project",
+    "et": "Sinu projekt",
+    "ru": "Ваш проект",
+    "fi": "Projektisi"
+  },
+  "Aménagement de jardin": {
+    "en": "Garden landscaping",
+    "et": "Aiakujundus",
+    "ru": "Обустройство сада",
+    "fi": "Puutarhan suunnittelu"
+  },
+  "Terrasse": {
+    "en": "Terrace",
+    "et": "Terrass",
+    "ru": "Терраса",
+    "fi": "Terassi"
+  },
+  "Clôture": {
+    "en": "Fence",
+    "et": "Piire",
+    "ru": "Ограда",
+    "fi": "Aita"
+  },
+  "Votre idée": {
+    "en": "Your idea",
+    "et": "Sinu idee",
+    "ru": "Ваша идея",
+    "fi": "Ideasi"
+  },
+  "Tester la demande →": {
+    "en": "Try the enquiry →",
+    "et": "Proovi päringut →",
+    "ru": "Попробовать заявку →",
+    "fi": "Kokeile kyselyä →"
+  },
+  "Démonstration terminée. Aucun message n'a été envoyé.": {
+    "en": "Demo complete. No message was sent.",
+    "et": "Demo valmis. Sõnumit ei saadetud.",
+    "ru": "Демо завершено. Сообщение не отправлено.",
+    "fi": "Demo valmis. Viestiä ei lähetetty."
+  },
+  "Accueil": {
+    "en": "Home",
+    "et": "Avaleht",
+    "ru": "Главная",
+    "fi": "Etusivu"
+  },
+  "Nos projets": {
+    "en": "Our projects",
+    "et": "Meie projektid",
+    "ru": "Наши проекты",
+    "fi": "Projektimme"
+  },
+  "Nos prestations": {
+    "en": "Our services",
+    "et": "Meie teenused",
+    "ru": "Наши услуги",
+    "fi": "Palvelumme"
+  },
+  "Contactez-nous": {
+    "en": "Contact us",
+    "et": "Võta ühendust",
+    "ru": "Связаться",
+    "fi": "Ota yhteyttä"
+  },
+  "Logo": {
+    "et": "Logo",
+    "ru": "Логотип",
+    "fi": "Logo",
+    "en": "Logo"
+  },
+  "Toggle menu": {
+    "et": "Ava või sulge menüü",
+    "ru": "Открыть или закрыть меню",
+    "fi": "Avaa tai sulje valikko",
+    "en": "Toggle menu"
+  },
+  "Cardoso Sarl · Concept de site": {
+    "en": "Cardoso Sarl · Website concept",
+    "et": "Cardoso Sarl · Veebilehe kontseptsioon",
+    "ru": "Cardoso Sarl · Концепция сайта",
+    "fi": "Cardoso Sarl · Sivustokonsepti"
+  },
+  "Concept indépendant réalisé par TOIMU Technologies OÜ. Ce site n'est pas le site officiel de l'entreprise.": {
+    "en": "Independent concept by TOIMU Technologies OÜ. This is not the business’s official website.",
+    "et": "TOIMU Technologies OÜ sõltumatu kontseptsioon. See pole ettevõtte ametlik veebileht.",
+    "ru": "Независимая концепция от TOIMU Technologies OÜ. Это не официальный сайт компании.",
+    "fi": "TOIMU Technologies OÜ:n itsenäinen konsepti. Tämä ei ole yrityksen virallinen sivusto."
+  },
+  "Navigation de pied de page": {
+    "en": "Footer navigation",
+    "et": "Jaluse navigeerimine",
+    "ru": "Навигация внизу страницы",
+    "fi": "Alatunnisteen navigointi"
+  },
+  "Projets": {
+    "en": "Projects",
+    "et": "Projektid",
+    "ru": "Проекты",
+    "fi": "Projektit"
+  },
+  "Prestations": {
+    "en": "Services",
+    "et": "Teenused",
+    "ru": "Услуги",
+    "fi": "Palvelut"
+  },
+  "Formulaire de démonstration": {
+    "en": "Demonstration form",
+    "et": "Näidisvorm",
+    "ru": "Демонстрационная форма",
+    "fi": "Demolomake"
+  },
+  "Aucun formulaire n'envoie de données. Aucune carte externe n'est intégrée.": {
+    "en": "No forms send data. No external map is embedded.",
+    "et": "Ükski vorm ei saada andmeid. Välist kaarti pole manustatud.",
+    "ru": "Формы не отправляют данные. Внешняя карта не встроена.",
+    "fi": "Lomakkeet eivät lähetä tietoja. Ulkoista karttaa ei ole upotettu."
+  },
+  "Website concept": {
+    "pt": "Conceito de website",
+    "fr": "Concept de site",
+    "et": "Veebilehe kontseptsioon",
+    "ru": "Концепция сайта",
+    "fi": "Sivustokonsepti"
+  },
+  "Only your language preference is saved in this browser. Demo form details and carts are not saved.": {
+    "pt": "Apenas o idioma é guardado neste navegador. Os dados dos formulários e carrinhos de demonstração não são guardados.",
+    "fr": "Seule la langue est enregistrée dans ce navigateur. Les données des formulaires et paniers de démonstration ne sont pas enregistrées.",
+    "et": "Brauserisse salvestatakse ainult keelevalik. Näidisvormide andmeid ja ostukorve ei salvestata.",
+    "ru": "В браузере сохраняется только выбор языка. Данные демо-форм и корзин не сохраняются.",
+    "fi": "Selaimeen tallennetaan vain kielivalinta. Demolomakkeiden tietoja ja ostoskoreja ei tallenneta."
+  }
+}
