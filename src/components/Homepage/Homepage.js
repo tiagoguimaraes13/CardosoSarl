@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Video from '../../assets/video.mp4';
 import pg1 from '../../assets/pg1.png';
 import pg2 from '../../assets/pg2.png';
@@ -8,7 +7,6 @@ import pg4 from '../../assets/pg4.png';
 import pg5 from '../../assets/pg5.png';
 import pg6 from '../../assets/pg6.png';
 import './Homepage.css';
-import { Mail } from 'lucide-react';  // Add this import at the top with your other imports
 
 const projects = [
   {
@@ -68,165 +66,44 @@ const services = [
 ];
 
 const Homepage = () => {
-  return (
-    <div className="homepage">
-      {/* Hero Section */}
-<section id="home" className="hero-section">
-  <video
-    src={Video}
-    className="hero-video"
-    autoPlay
-    loop
-    muted
-    playsInline
-  />
-  <div className="hero-overlay"></div>
-  <div className="hero-content">
-    <p className="hero-text">Transformer les espaces, cultiver les rêves.</p>
-    <div className="scroll-indicator">
-      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <line x1="12" y1="5" x2="12" y2="19"></line>
-        <polyline points="19 12 12 19 5 12"></polyline>
-      </svg>
-    </div>
-  </div>
-</section>
-
-      {/* Projects Section */}
-      <section id="projects" className="projects-section">
-        <div className="projects-card">
-          <h2>Mes Projects</h2>
-        </div>
-        <div className="projects-list">
-          {projects.map((project) => (
-            <Link
-              key={project.id}
-              to={project.path}
-              className="project-card"
-              style={{ backgroundImage: `url(${project.image})` }}
-            >
-              <div className="project-description">
-                {project.title}
-              </div>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      {/* Services Section */}
-      <section id="services" className="services-section">
-        <div className="services-card">
-          <h2>Mes Prestations</h2>
-        </div>
-        <div className="services-list">
-          {services.map((service) => (
-            <div key={service.id} className="service-card">
-              <div className="service-image">
-                {service.icon}
-              </div>
-              <h3>{service.title}</h3>
-              <p className="service-description">
-                {service.description}
-              </p>
-            </div>
-          ))}
-        </div>
-      </section>
-      {/* Contact Section */}
-<section id="contact" className="contact-section">
-  <div className="contact-card">
-    <h2>Contactez-nous</h2>
-  </div>
-  <div className="contact-container">
-    <div className="contact-info">
-      <div className="info-item">
-        <svg className="info-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
-        </svg>
-        <p>+41 76 439 57 80</p>
+  const [category, setCategory] = React.useState('Tous');
+  const [preview, setPreview] = React.useState(false);
+  const filters = ['Tous', 'Terrasses', 'Clôtures', 'Jardins'];
+  const categories = ['Jardins', 'Clôtures', 'Terrasses', 'Terrasses', 'Jardins', 'Clôtures'];
+  return <div className="landscape-home">
+    <section id="home" className="landscape-hero">
+      <video src={Video} autoPlay loop muted playsInline aria-hidden="true" poster={pg1} />
+      <div className="landscape-hero-copy">
+        <p className="landscape-eyebrow">CARDOSO SARL · CONCEPT INDÉPENDANT</p>
+        <h1>Un extérieur.<br />Mille possibilités.</h1>
+        <p>Des jardins aux terrasses, imaginez un espace qui vous ressemble.</p>
+        <a className="landscape-button" href="#projects">Découvrir les projets ↗</a>
+        <a className="landscape-text-link" href="#contact">Imaginer votre projet →</a>
       </div>
-      <div className="info-item">
-      <Mail className="info-icon" size={24} />
-  <a 
-    href="mailto:cardoso-paysages@hotmail.com"
-    className="info-link"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    cardoso-paysages@hotmail.com
-  </a>
-      </div>
-      <div className="info-item">
-        <svg className="info-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
-          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
-          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
-        </svg>
-        <a href="https://www.instagram.com/cardososarl/" target="_blank" rel="noopener noreferrer">
-          @cardososarl
-        </a>
-      </div>
-    </div>
-    
-    <form className="contact-form">
-      <div className="form-group">
-        <input 
-          type="text"
-          name="name"
-          placeholder="Votre nom"
-          required
-          className="form-input"
-        />
-      </div>
-      <div className="form-group">
-        <input 
-          type="email"
-          name="email"
-          placeholder="Votre email"
-          required
-          className="form-input"
-        />
-      </div>
-      <div className="form-group">
-        <input 
-          type="tel"
-          name="phone"
-          placeholder="Votre téléphone"
-          className="form-input"
-        />
-      </div>
-      <div className="form-group">
-        <textarea
-          name="message"
-          placeholder="Votre message"
-          required
-          className="form-textarea"
-        ></textarea>
-      </div>
-      <button type="submit" className="submit-button">
-        Envoyer
-      </button>
-    </form>
-  </div>
-    {/* New Map Section */}
-    <div className="location-section">
-    <h3>Notre Emplacement</h3>
-    <div className="map-container">
-      <iframe
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2753.8275005949376!2d6.16434037544757!3d46.35296787370319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c5d86d0a72e35%3A0x16105836595e7456!2sRte%20du%20Moulin%202%2C%201279%20Bogis-Bossey%2C%20Suisse!5e0!3m2!1sfr!2spt!4v1736039767733!5m2!1sfr!2spt" 
-  width="600"
-        height="400"
-        style={{ border: 0 }}
-        allowFullScreen=""
-        loading="lazy"
-        referrerPolicy="no-referrer-when-downgrade"
-        title="Location map"
-      ></iframe>
-    </div>
-  </div>
-</section>
-    </div>
-  );
+    </section>
+    <aside className="concept-note">Concept de site réalisé par TOIMU. Projet non commandé : cette démonstration ne reçoit aucune demande commerciale.</aside>
+    <section id="services" className="landscape-section">
+      <p className="landscape-eyebrow">01 / NOS PRESTATIONS</p>
+      <div className="landscape-heading"><h2>De l'idée au jardin.</h2><p>Une présentation des solutions pour aménager, construire et entretenir les espaces extérieurs.</p></div>
+      <div className="landscape-services">{services.map((service, index) => <article key={service.id}><span>0{index + 1}</span><h3>{service.title === 'Maintenance' ? 'Entretien' : service.title}</h3><p>{index === 2 ? "Un extérieur soigné, au fil des saisons." : service.description}</p><a href="#contact">Parlons de votre projet →</a></article>)}</div>
+    </section>
+    <section id="projects" className="landscape-section landscape-work">
+      <p className="landscape-eyebrow">02 / INSPIRATIONS</p><h2>Des espaces à vivre.</h2>
+      <div className="landscape-filters" aria-label="Filtrer les projets">{filters.map(filter => <button key={filter} aria-pressed={category === filter} onClick={() => setCategory(filter)}>{filter}</button>)}</div>
+      <div className="landscape-projects">{projects.filter((project) => category === 'Tous' || categories[project.id - 1] === category).map(project => <article key={project.id}><img src={project.image} alt={project.title} loading="lazy" /><p className="landscape-eyebrow">{categories[project.id - 1]}</p><h3>{project.title}</h3></article>)}</div>
+    </section>
+    <section id="contact" className="landscape-section landscape-contact">
+      <div><p className="landscape-eyebrow">03 / VOTRE PROJET</p><h2>Et si tout commençait<br />par une idée ?</h2><p>Essayez le formulaire avec des données fictives. Aucun message n'est envoyé ni conservé après fermeture de la page.</p></div>
+      <form onSubmit={event => { event.preventDefault(); setPreview(true); }} onChange={() => setPreview(false)}>
+        <label>Votre nom<input name="name" autoComplete="off" required /></label>
+        <label>Votre email<input type="email" name="email" autoComplete="off" required /></label>
+        <label>Votre projet<select name="service"><option>Aménagement de jardin</option><option>Terrasse</option><option>Clôture</option><option>Entretien</option></select></label>
+        <label>Votre idée<textarea name="message" rows="4" required /></label>
+        <button className="landscape-button" type="submit">Tester la demande →</button>
+        {preview && <p role="status">Démonstration terminée. Aucun message n'a été envoyé.</p>}
+      </form>
+    </section>
+  </div>;
 };
 
 export default React.memo(Homepage);
