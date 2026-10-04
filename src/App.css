@@ -99,3 +99,6 @@
       font-size: 1rem;
     }
   }
+/* Contain layout within the viewport. */
+*, *::before, *::after { box-sizing: border-box; }
+.main-content { max-width: none; padding: 0; width: 100%; }
