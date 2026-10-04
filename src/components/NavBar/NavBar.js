@@ -1,3 +1,4 @@
+import './NavBar.css';
 import { useDemoLanguage, DemoLanguageSwitcher } from "../../i18n/DemoLanguage";
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';

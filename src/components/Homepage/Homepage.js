@@ -1,3 +1,4 @@
+import './Homepage.css';
 import { useDemoLanguage } from "../../i18n/DemoLanguage";
 import React from 'react';
 import Video from '../../assets/video.mp4';

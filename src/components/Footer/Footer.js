@@ -1,3 +1,4 @@
+import './Footer.css';
 import { useDemoLanguage } from "../../i18n/DemoLanguage";
 import React from 'react';
 export const Footer = () => {
